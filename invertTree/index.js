@@ -22,8 +22,3 @@ var invertTree = function (root) {
   }
   return root;
 };
-
-function TreeNode(val) {
-  this.val = val;
-  this.left = this.right = null;
-}
